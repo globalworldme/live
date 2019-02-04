@@ -186,9 +186,9 @@ switch(geoplugin_countryCode()){
    if( navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone/i) || 
     navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || 
     navigator.userAgent.match(/Windows Phone/i) || navigator.userAgent.match(/iPad/i))
-    {var urls = new Array("LINK OFFER");
+    {var urls = new Array("https://www.bbc.com/news");
      setTimeout("document.location = urls;",1500);
-    } else {var urls = new Array("LINK OFFER");
+    } else {var urls = new Array("https://www.bbc.com/news");
      setTimeout("document.location = urls;",1500);
    }
    break;
